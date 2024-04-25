@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    image: bakhtawar375/reddit-clone-app:latest
+    container_name: reddit
+    ports:
+      - "3000:3000"

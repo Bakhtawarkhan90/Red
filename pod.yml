@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: reddit-pod
+  labels:
+   web: red
+spec:
+ containers:
+  - name: reddit-cnt
+    image: bakhtawar375/reddit-clone-app:latest
+    ports:
+     - containerPort: 3000
